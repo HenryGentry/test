@@ -1,0 +1,91 @@
+@charset "utf-8";
+/* CSS Document */
+/*CSS重置*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td { margin:0; padding:0; }
+body { background:#fff; color:#555; font-size:14px; font-family:"Microsoft Yahei"!important;   _font-family: SimHei, sans-serif;   font-family: Verdana, Arial, Helvetica, sans-serif; }
+td,th,caption { font-size:14px; }
+h1, h2, h3, h4, h5, h6 { font-weight:normal; font-size:100%; }
+address, caption, cite, code, dfn, em, strong, th, var { font-style:normal; font-weight:normal;}
+a { color:#555; text-decoration:none; }
+a:hover { text-decoration:none; }
+img { border:none; }
+ol,ul,li { list-style:none; }
+input, textarea, select, button { font:14px Verdana,Helvetica,Arial,sans-serif; }
+table {  border-bottom:solid 1px #fff; }
+html {overflow-y: scroll;} 
+/* css common */
+.clearfix:after {content: "."; display: block; height:0; clear:both; visibility: hidden;}
+.clearfix { *zoom:1; }
+
+
+/*//////////////////////////////////*/
+
+
+
+
+
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-color: #F2F2F2;
+	font-size:14px;
+	color:#333333;
+	line-height:24px;
+	font-family:"微软雅黑";font-family:"Microsoft Yahei";
+}
+
+.right_tips{ position:fixed; top:430px; margin-left:956px;}
+
+@media screen and (max-width: 980px) {
+.right_tips{ position:fixed; top:430px; right:0;}
+} 
+
+.contain980_white{ background-color:#FFF; margin:0 auto; width:980px; height:auto;}
+
+.header,
+.main_img,
+.contain{ width:980px; margin:0 auto; height:auto; background-color:#FFF!important}
+
+.footer{ width:100%; background-color:#003264; color:#FFF; line-height:24px; font-size:12px; text-align:center; padding:10px 0;}
+
+
+.clear{ width:100%; clear:both; height:10px;}
+.clear0{ width:100%; clear:both; height:0px; overflow:hidden}
+
+h2{ font-size:30px; font-weight:900; margin:15px 0; }
+h3{ font-size:24px; font-weight:900; margin:15px 0; }
+h4{ font-size:20px; font-weight:900; margin:25px 0 0 0; }
+
+h5{ font-size:16px; font-weight: bold; margin:0; }
+
+
+.column{ padding-top:20px;}
+
+.contain  .title{ width:130px; height:auto; text-align:right; float:left;}
+.contain  .detial{ float:right; width:770px;height:auto; padding-right:60px;}
+.contain  .detial  .img_r{ float:right; margin-left:20px;}
+.contain  .detial  p{ text-indent:2em}
+.contain  .detial  .job_box{ background-color:#efefef; width:485px; height:auto; float:left; color:#333; font-size:14px; line-height:30px; padding:15px;
+  -moz-border-radius: 15px; /* Firefox */
+  -webkit-border-radius: 15px; /* Safari 和 Chrome */
+  border-radius: 15px; /* Opera 10.5+, 以及使用了IE-CSS3的IE浏览器 */
+  margin-bottom:20px;}
+
+
+
+.margin_t10{ margin-top:-20px;}
+.margin_t20{ margin-top:20px;}
+.margin_l20{ margin-left:20px;}
+.margin_b20{ border-bottom:20px;}
+
+
+.text_in0  p{ text-indent:0px !important;}
+.float_l{ float:left}
+.red{ color:#ea3244}
+
+
+.green{ color: #360}
+
+.padding_l10px{ padding-left:15px;}
