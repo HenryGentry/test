@@ -36,10 +36,15 @@ body {
 	font-family:"微软雅黑";font-family:"Microsoft Yahei";
 }
 
-.right_tips{ position:fixed; top:430px; margin-left:956px;}
+.right_tips{ position:fixed; top:430px; margin-left:956px; z-index: 99}
+.orange_title {
+  font-size: 2.2em;
+  color: orange;
+  font-weight: bold;
+}
 
 @media screen and (max-width: 980px) {
-.right_tips{ position:fixed; top:430px; right:0;}
+.right_tips{ position:fixed; top:430px; right:0; z-index: 99}
 } 
 
 .contain980_white{ background-color:#FFF; margin:0 auto; width:980px; height:auto;}
@@ -90,8 +95,6 @@ h5{ font-size:16px; font-weight: bold; margin:0; }
 
 .padding_l10px{ padding-left:15px;}
 
-.orange_title {
-  font-size: 2.2em;
-  color: orange;
-  font-weight: bold;
+.img-right {
+	float: right;
 }
