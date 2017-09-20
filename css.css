@@ -43,6 +43,8 @@ body {
   font-weight: bold;
 }
 
+.right_tips img{ width:120px;}
+
 @media screen and (max-width: 980px) {
 .right_tips{ position:fixed; top:430px; right:0; z-index: 99}
 } 
@@ -60,7 +62,7 @@ body {
 .clear0{ width:100%; clear:both; height:0px; overflow:hidden}
 
 h2{ font-size:30px; font-weight:900; margin:15px 0; }
-h3{ font-size:24px; font-weight:900; margin:15px 0; }
+h3{ font-size:22px; font-weight:900; margin:15px 0; }
 h4{ font-size:20px; font-weight:900; margin:25px 0 0 0; }
 
 h5{ font-size:16px; font-weight: bold; margin:0; }
@@ -71,7 +73,7 @@ h5{ font-size:16px; font-weight: bold; margin:0; }
 .contain  .title{ width:130px; height:auto; text-align:right; float:left;}
 .contain  .detial{ float:right; width:770px;height:auto; padding-right:60px;}
 .contain  .detial  .img_r{ float:right; margin-left:20px;}
-.contain  .detial  p{ text-indent:2em}
+/*.contain  .detial  p{ text-indent:2em}*/
 .contain  .detial  .job_box{ background-color:#efefef; width:485px; height:auto; float:left; color:#333; font-size:14px; line-height:30px; padding:15px;
   -moz-border-radius: 15px; /* Firefox */
   -webkit-border-radius: 15px; /* Safari 和 Chrome */
@@ -96,5 +98,5 @@ h5{ font-size:16px; font-weight: bold; margin:0; }
 .padding_l10px{ padding-left:15px;}
 
 .img-right {
-	float: right;
+	float: right; width:140ox; height:140px; margin-left:40px;
 }
