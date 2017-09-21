@@ -2,15 +2,15 @@
 /* CSS Document */
 /*CSS重置*/
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td { margin:0; padding:0; }
-body { background:#fff; color:#555; font-size:14px; font-family:"Microsoft Yahei"!important;   _font-family: SimHei, sans-serif;   font-family: Verdana, Arial, Helvetica, sans-serif; }
-td,th,caption { font-size:14px; }
+body { background:#fff; color:#555; font-size:1em; font-family:"Microsoft Yahei"!important;   _font-family: SimHei, sans-serif;   font-family: Verdana, Arial, Helvetica, sans-serif; }
+td,th,caption { font-size:1em; }
 h1, h2, h3, h4, h5, h6 { font-weight:normal; font-size:100%; }
 address, caption, cite, code, dfn, em, strong, th, var { font-style:normal; font-weight:normal;}
 a { color:#555; text-decoration:none; }
 a:hover { text-decoration:none; }
 img { border:none; }
 ol,ul,li { list-style:none; }
-input, textarea, select, button { font:14px Verdana,Helvetica,Arial,sans-serif; }
+input, textarea, select, button { font:1em Verdana,Helvetica,Arial,sans-serif; }
 table {  border-bottom:solid 1px #fff; }
 html {overflow-y: scroll;} 
 /* css common */
@@ -30,13 +30,13 @@ body {
 	margin-right: 0px;
 	margin-bottom: 0px;
 	background-color: #F2F2F2;
-	font-size:14px;
+	font-size:1em;
 	color:#333333;
-	line-height:24px;
+	line-height:34px;
 	font-family:"微软雅黑";font-family:"Microsoft Yahei";
 }
 
-.right_tips{ position:fixed; top:430px; margin-left:956px; z-index: 99}
+.right_tips{ position:fixed; top:700px; margin-left:956px; z-index: 99}
 .orange_title {
   font-size: 2.2em;
   color: orange;
@@ -55,7 +55,7 @@ body {
 .main_img,
 .contain{ width:980px; margin:0 auto; height:auto; background-color:#FFF!important}
 
-.footer{ width:100%; background-color:#003264; color:#FFF; line-height:24px; font-size:12px; text-align:center; padding:10px 0;}
+.footer{ width:100%; background-color:#003264; color:#FFF; line-height:24px; font-size:1em; text-align:center; padding:10px 0;}
 
 
 .clear{ width:100%; clear:both; height:10px;}
@@ -74,7 +74,7 @@ h5{ font-size:16px; font-weight: bold; margin:0; }
 .contain  .detial{ float:right; width:770px;height:auto; padding-right:60px;}
 .contain  .detial  .img_r{ float:right; margin-left:20px;}
 /*.contain  .detial  p{ text-indent:2em}*/
-.contain  .detial  .job_box{ background-color:#efefef; width:485px; height:auto; float:left; color:#333; font-size:14px; line-height:30px; padding:15px;
+.contain  .detial  .job_box{ background-color:#efefef; width:485px; height:auto; float:left; color:#333; font-size:1em; line-height:30px; padding:15px;
   -moz-border-radius: 15px; /* Firefox */
   -webkit-border-radius: 15px; /* Safari 和 Chrome */
   border-radius: 15px; /* Opera 10.5+, 以及使用了IE-CSS3的IE浏览器 */
