@@ -46,7 +46,7 @@ body {
 .right_tips img{ width:120px;}
 
 @media screen and (max-width: 980px) {
-.right_tips{ position:fixed; top:430px; right:0; z-index: 99}
+.right_tips{ position:fixed; top:610px; right:0; z-index: 99}
 } 
 
 .contain980_white{ background-color:#FFF; margin:0 auto; width:980px; height:auto;}
