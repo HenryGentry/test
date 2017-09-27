@@ -36,14 +36,14 @@ body {
 	font-family:"微软雅黑";font-family:"Microsoft Yahei";
 }
 
-.right_tips{ position:fixed; top:700px; margin-left:956px; z-index: 99}
+.right_tips{ position:fixed; top:300px; margin-left:956px; z-index: 99}
 .orange_title {
   font-size: 2.2em;
   color: orange;
   font-weight: bold;
 }
 
-.right_tips img{ width:120px;}
+.right_tips img{ width:77px;}
 
 @media screen and (max-width: 980px) {
 .right_tips{ position:fixed; top:610px; right:0; z-index: 99}
